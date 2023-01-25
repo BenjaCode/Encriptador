@@ -50,7 +50,12 @@ body{
     border: 2px solid #0A3871;
 }
 
-.contenedor #mensaje form .encriptar{
+.contenedor #mensaje form .botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor #mensaje form .botones .encriptar{
     margin-top: 40px;
     width: 45%;
     color: var(--white);
@@ -64,7 +69,7 @@ body{
     -o-border-radius: 8px;
 }
 
-.contenedor #mensaje form .desencriptar{
+.contenedor #mensaje form .botones .desencriptar{
     margin-top: 40px;
     width: 45%;
     color: var(--dark-blue-300);
