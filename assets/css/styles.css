@@ -111,3 +111,13 @@ body{
 .contenedor #resultado div img{
     width: 50%;
 }
+
+.contenedor #resultado div .text1{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--gray-500);
+}
+
+.contenedor #resultado div .text2{
+    color: var(--gray-400);
+}
