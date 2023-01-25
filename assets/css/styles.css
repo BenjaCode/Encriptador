@@ -69,6 +69,15 @@ body{
     -o-border-radius: 8px;
 }
 
+.contenedor #mensaje form .botones .encriptar:hover,
+.contenedor #mensaje form .botones .desencriptar:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
 .contenedor #mensaje form .botones .desencriptar{
     margin-top: 40px;
     width: 45%;
