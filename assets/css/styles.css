@@ -8,6 +8,11 @@
     --gray-100: #CED4DA;
 }
 
+/* ----Preformateado---- */
+*{ 
+    box-sizing: border-box;
+}
+
 /* ----Contenedor---- */
 .contenedor{
     width: 90%;
