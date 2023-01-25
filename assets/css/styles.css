@@ -44,3 +44,34 @@ body{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+
+.contenedor #mensaje form div textarea:focus,
+.contenedor #mensaje form div textarea:active{  
+    border: 2px solid #0A3871;
+}
+
+.contenedor #mensaje form .encriptar{
+    margin-top: 40px;
+    color: var(--white);
+    background-color: var(--dark-blue-300);
+    padding: 8px 16px;
+    border: 1px solid var(--dark-blue-300);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.contenedor #mensaje form .desencriptar{
+    margin-top: 40px;
+    color: var(--dark-blue-300);
+    background-color: var(--gray-100);
+    padding: 8px 16px;
+    border: 1px solid var(--dark-blue-300);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
