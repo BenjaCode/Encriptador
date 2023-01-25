@@ -139,3 +139,7 @@ body{
 .contenedor #resultado div .text2{
     color: var(--gray-400);
 }
+
+.ocultarImagenYTexto{
+    visibility: hidden;
+}
