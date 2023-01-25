@@ -123,6 +123,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.3);
 }
 
 .contenedor #resultado div img{
