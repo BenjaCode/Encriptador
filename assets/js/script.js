@@ -20,7 +20,7 @@ btnDesencriptar.addEventListener('click', () => {
 
 // ----Evento click del boton Resultado----
 btnCopiar.addEventListener(`click`, () => {
-
+    copiar();
 });
 
 // ----Funcion para mostrar u ocultar los elementos del Resultado
@@ -62,4 +62,14 @@ function desencriptarMensaje() {
     mensajeDesencriptado = mensajeDesencriptado.replace(/ufat/img, `u`);
     
     tAResultado.value = `${mensajeDesencriptado}`;
+}
+
+// ----Funcion para copiar----
+function copiar() {
+    // Para centrarnos en el texto del textarea
+    tAResultado.focus();
+    // Para seleccionar el texto
+    document.execCommand(`selectAll`);
+    // Para copiarlo
+    document.execCommand(`copy`);
 }
