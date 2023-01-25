@@ -14,6 +14,7 @@ btnEncriptar.addEventListener('click', () => {
 
 btnDesencriptar.addEventListener('click', () => {
     ocultarImagenYTexto();
+    desencriptarMensaje();
 });
 
 // ----Funcion para mostrar u ocultar los elementos del Resultado
@@ -42,4 +43,17 @@ function encriptarMensaje() {
     mensajeEncriptado = mensajeEncriptado.replace(/u/img, `ufat`);
     
     tAResultado.value = `${mensajeEncriptado}`;
+}
+
+// ----Funcion para desencriptar el mensaje----
+function desencriptarMensaje() {
+    let mensajeNormal = `${mensaje.value.toLowerCase()}`;
+
+    let mensajeDesencriptado = mensajeNormal.replace(/enter/img, `e`);
+    mensajeDesencriptado = mensajeDesencriptado.replace(/imes/img, `i`);
+    mensajeDesencriptado = mensajeDesencriptado.replace(/ai/img, `a`);
+    mensajeDesencriptado = mensajeDesencriptado.replace(/ober/img, `o`);
+    mensajeDesencriptado = mensajeDesencriptado.replace(/ufat/img, `u`);
+    
+    tAResultado.value = `${mensajeDesencriptado}`;
 }
