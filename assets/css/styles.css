@@ -140,6 +140,62 @@ body{
     color: var(--gray-400);
 }
 
+.contenedor #resultado #resultadoYBtn{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor #resultado div textarea{
+    margin-top: 20px;
+    width: 90%;
+    height: 75%;
+    border: 2px solid var(--dark-blue-300);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 24px;
+    color: var(--dark-blue-300);
+    padding: 8px;
+}
+
+.contenedor #resultado div textarea:focus,
+.contenedor #resultado div textarea:active{  
+    border: 1px solid #0A3871;
+}
+
+.contenedor #resultado div button{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    color: var(--dark-blue-300);
+    background-color: var(--white);
+    border: 1px solid var(--dark-blue-300);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+.contenedor #resultado div button:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
 .ocultarImagenYTexto{
-    display: none;
+    display: none !important;
 }
