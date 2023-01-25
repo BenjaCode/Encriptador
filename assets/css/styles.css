@@ -141,5 +141,5 @@ body{
 }
 
 .ocultarImagenYTexto{
-    visibility: hidden;
+    display: none;
 }
