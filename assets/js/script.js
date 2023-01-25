@@ -1,10 +1,11 @@
 // ----Variables----
-const mensaje = document.querySelector('#tAMensaje');
-const btnEncriptar = document.querySelector('#btnEncriptar');
-const btnDesencriptar = document.querySelector('#btnDesencriptar');
-const imagenYTexto = document.querySelector('#imagenYTexto');
-const resultadoYBtn = document.querySelector('#resultadoYBtn');
+let mensaje = document.querySelector('#tAMensaje');
+let btnEncriptar = document.querySelector('#btnEncriptar');
+let btnDesencriptar = document.querySelector('#btnDesencriptar');
+let imagenYTexto = document.querySelector('#imagenYTexto');
+let resultadoYBtn = document.querySelector('#resultadoYBtn');
 let tAResultado = document.querySelector('#tAResultado');
+let btnCopiar = document.querySelector('#btnCopiar');
 
 // ----Eventos click de los botones Mensaje----
 btnEncriptar.addEventListener('click', () => {
@@ -15,6 +16,11 @@ btnEncriptar.addEventListener('click', () => {
 btnDesencriptar.addEventListener('click', () => {
     ocultarImagenYTexto();
     desencriptarMensaje();
+});
+
+// ----Evento click del boton Resultado----
+btnCopiar.addEventListener(`click`, () => {
+
 });
 
 // ----Funcion para mostrar u ocultar los elementos del Resultado
