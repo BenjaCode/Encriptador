@@ -8,3 +8,7 @@
     --gray-100: #CED4DA;
 }
 
+/* ----Body---- */
+body{
+    background-color: var(--light-blue-100);
+}
