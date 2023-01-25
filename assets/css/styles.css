@@ -8,6 +8,13 @@
     --gray-100: #CED4DA;
 }
 
+/* ----Contenedor---- */
+.contenedor{
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto ;
+}
+
 /* ----Body---- */
 body{
     background-color: var(--light-blue-100);
